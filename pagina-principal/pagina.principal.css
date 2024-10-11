@@ -1,0 +1,163 @@
+
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do container do logo */
+#logo.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Título principal */
+#titulo_pagina h1 {
+    color: #ff6a00; /* Laranja mais vibrante */
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navegação principal */
+#box_nav nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    border-bottom: 3px solid #ff6a00;
+}
+
+#box_nav nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#box_nav nav a:hover {
+    background-color: #ff6a00;
+}
+
+/* Barra de busca */
+#search-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#search-container input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ff6a00;
+    border-radius: 5px;
+}
+
+#search-container button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#search-container button:hover {
+    background-color: black;
+}
+
+/* Rodapé */
+#rodape.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-top: 3px solid #ff6a00;
+}
+
+#rodape.horizontal img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#links.perfil nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#links.perfil nav a:hover {
+    color: #ff6a00;
+}
+
+/* Promoção da semana */
+main h2 {
+    color: #ff6a00;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+/* Container de produtos */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.prateleira1, .prateleira2, .prateleira3 {
+    background-color: #f8f8f8;
+    border: 2px solid #ff6a00;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.produto {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.descricao.produto, .preço {
+    margin: 10px 0;
+}
+
+.preço {
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
